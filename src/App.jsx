@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './Navbar'
 import Home from './Home'
 import Theme1 from './Theme1'
@@ -9,7 +9,7 @@ import Theme5 from './Theme5'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,6 +19,6 @@ export default function App() {
         <Route path="/theme4" element={<Theme4 />} />
         <Route path="/theme5" element={<Theme5 />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
