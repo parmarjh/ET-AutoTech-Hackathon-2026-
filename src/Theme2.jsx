@@ -42,7 +42,7 @@ export default function Theme2() {
           </div>
           <div style={{ position: 'relative', flex: 1, minHeight: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,255,157,0.05) 100%)' }}>
             <img 
-              src="/ev_retrofit.png" 
+              src={`${import.meta.env.BASE_URL}ev_retrofit.png`} 
               alt="EV Retrofit 3D Scan" 
               style={{ 
                 width: '100%', 

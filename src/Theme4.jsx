@@ -41,7 +41,7 @@ export default function Theme4() {
           </div>
           <div style={{ position: 'relative', flex: 1, minHeight: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(168,85,247,0.05) 100%)' }}>
             <img 
-              src="/ev_charging.png" 
+              src={`${import.meta.env.BASE_URL}ev_charging.png`} 
               alt="EV Charging 3D Map" 
               style={{ 
                 width: '100%', 
