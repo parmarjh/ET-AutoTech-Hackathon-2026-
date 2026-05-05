@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Leaf, Activity, RefreshCw, BarChart3 } from 'lucide-react';
+import img from './assets/circular_economy.png';
 
 export default function Theme5() {
   const [isRunning, setIsRunning] = useState(false);
@@ -42,7 +43,7 @@ export default function Theme5() {
           </div>
           <div style={{ position: 'relative', flex: 1, minHeight: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(245,158,11,0.05) 100%)' }}>
             <img 
-              src={`${import.meta.env.BASE_URL}circular_economy.png`} 
+              src={img} 
               alt="Circular Economy 3D Simulation" 
               style={{ 
                 width: '100%', 

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Shield, Activity, ShieldAlert, Cpu } from 'lucide-react';
+import img from './assets/supply_chain.png';
 
 export default function Theme1() {
   const [isRunning, setIsRunning] = useState(false);
@@ -42,7 +43,7 @@ export default function Theme1() {
           </div>
           <div style={{ position: 'relative', flex: 1, minHeight: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,200,255,0.05) 100%)' }}>
             <img 
-              src={`${import.meta.env.BASE_URL}supply_chain.png`} 
+              src={img} 
               alt="Supply Chain 3D Map" 
               style={{ 
                 width: '100%', 

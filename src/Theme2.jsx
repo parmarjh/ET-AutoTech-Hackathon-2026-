@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Zap, Activity, Battery, ShieldCheck } from 'lucide-react';
+import img from './assets/ev_retrofit.png';
 
 export default function Theme2() {
   const [isRunning, setIsRunning] = useState(false);
@@ -42,7 +43,7 @@ export default function Theme2() {
           </div>
           <div style={{ position: 'relative', flex: 1, minHeight: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,255,157,0.05) 100%)' }}>
             <img 
-              src={`${import.meta.env.BASE_URL}ev_retrofit.png`} 
+              src={img} 
               alt="EV Retrofit 3D Scan" 
               style={{ 
                 width: '100%', 

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Eye, Activity, AlertTriangle, UserCheck } from 'lucide-react';
+import img from './assets/adas_india.png';
 
 export default function Theme3() {
   const [isRunning, setIsRunning] = useState(false);
@@ -41,7 +42,7 @@ export default function Theme3() {
           </div>
           <div style={{ position: 'relative', flex: 1, minHeight: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,107,53,0.05) 100%)' }}>
             <img 
-              src={`${import.meta.env.BASE_URL}adas_india.png`} 
+              src={img} 
               alt="ADAS 3D Interface" 
               style={{ 
                 width: '100%', 
