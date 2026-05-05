@@ -1,5 +1,9 @@
 # 🏎️ ET AutoTech Hackathon 2026 Platform
 
+[![Deploy to GitHub Pages](https://github.com/parmarjh/ET-AutoTech-Hackathon-2026-/actions/workflows/deploy.yml/badge.svg)](https://github.com/parmarjh/ET-AutoTech-Hackathon-2026-/actions/workflows/deploy.yml)
+
+**Live Demo**: [https://parmarjh.github.io/ET-AutoTech-Hackathon-2026-/](https://parmarjh.github.io/ET-AutoTech-Hackathon-2026-/)
+
 Welcome to the **ET AutoTech 2026** AI-Powered Automotive Innovation Platform! This project showcases 5 production-ready AI solutions across the automotive value chain, built with React, Vite, and cutting-edge frontend technologies.
 
 ![App Demo](./public/ev_retrofit.png)
